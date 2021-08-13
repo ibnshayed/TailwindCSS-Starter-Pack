@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.text{
+	@apply text-center bg-green-500 p-5 border-4 border-blue-700
+}
