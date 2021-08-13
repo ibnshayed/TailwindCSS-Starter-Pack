@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/tailwind.css -o public/css/tailwind.css -w",
-		"prod": "NODE_ENV=production postcss src/tailwind.css -o public/css/tailwind.css"
+    "build": "postcss src/css/tailwind.css -o src/css/tailwind-build.css -w",
+		"prod": "NODE_ENV=production postcss src/css/tailwind.css -o src/css/tailwind-build.css"
   },
   "keywords": [],
   "author": "Emran Ibn Shayed",
