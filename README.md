@@ -19,6 +19,7 @@ npm run build
 ## **How to Create this**
 
 ```
+npm init -y
 npm i tailwindcss@latest postcss-cli@latest autoprefixer@latest
 ```
 
