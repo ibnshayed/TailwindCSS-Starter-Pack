@@ -11,7 +11,7 @@ git clone https://github.com/ibnshayed/TailwindCSS-Starter-Pack.git
 ### **Build:**
 
 ```
-npm run build
+npm run dev
 ```
 
 ### **Start: On VS Code any live server**
@@ -39,7 +39,7 @@ npx tailwind init -p
 
 ```javascript
 "scripts": {
-    "build": "set TAILWIND_MODE=watch&postcss src/css/tailwind.css -o src/css/styles.css -w --verbose",
-    "prod": "NODE_ENV=production postcss src/css/tailwind.css -o src/css/styles.css -m"
+    "dev": "set TAILWIND_MODE=watch&postcss src/css/tailwind.css -o src/css/styles.css -w --verbose",
+    "build": "NODE_ENV=production postcss src/css/tailwind.css -o src/css/styles.css -m"
   }
 ```
