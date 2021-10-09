@@ -5,18 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TailwindCSS Starter Pack</title>
-    <link rel="stylesheet" href="./src/css/tailwind-build.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
     <div
-      class="h-screen bg-pink-700 text-white flex flex-col justify-center items-center"
+      class="
+        h-screen
+        bg-pink-700
+        text-white
+        flex flex-col
+        justify-center
+        items-center
+      "
     >
       <h1 class="text-4xl font-bold uppercase tracking-widest">
         Welcome to Tailwind CSS Starter Pack
       </h1>
-			<div class="w-[400px] h-[400px] bg-green-500 mt-5 p-20">
-				<h1 class="font-black text-3xl text-cente text-red-600">Using JIT</h1>
-			</div>
+      <div class="w-[400px] h-[400px] bg-yellow-400 mt-20 p-10">
+        <h1 class="font-black text-4xl text-center text-black">Using JIT</h1>
+      </div>
+
+      <div class="bg-green-300 p-6 mt-10">
+        <h1 class="text-4xl text-center text-black mb-6">Daisy UI</h1>
+        <button class="btn">neutral</button>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-secondary">secondary</button>
+        <button class="btn btn-accent">accent</button>
+        <button class="btn btn-ghost">ghost</button>
+        <button class="btn btn-link">link</button>
+      </div>
     </div>
     <script src="./src/js/main.js"></script>
   </body>
