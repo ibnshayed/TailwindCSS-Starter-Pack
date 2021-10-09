@@ -8,7 +8,7 @@
 git clone https://github.com/ibnshayed/TailwindCSS-Starter-Pack.git 
 ```
 
-### **Build:**
+### **TailwindCss Build For Development:**
 
 ```
 npm run dev
