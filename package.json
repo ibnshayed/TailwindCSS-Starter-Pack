@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "set TAILWIND_MODE=watch&postcss src/css/tailwind.css -o src/css/styles.css -w --verbose",
-    "build": "NODE_ENV=production npx tailwindcss src/css/tailwind.css --postcss -o src/css/styles.css -m"
+    "build": "NODE_ENV=production postcss src/css/tailwind.css -o src/css/styles.css -m"
   },
   "keywords": [],
   "author": "Emran Ibn Shayed",

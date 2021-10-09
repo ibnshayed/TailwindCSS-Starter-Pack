@@ -39,7 +39,7 @@ npx tailwind init -p
 
 ```javascript
 "scripts": {
-    "build": "postcss src/css/tailwind.css -o src/css/tailwind-build.css -w",
-    "prod": "NODE_ENV=production postcss src/css/tailwind.css -o src/css/tailwind-build.css"
+    "build": "set TAILWIND_MODE=watch&postcss src/css/tailwind.css -o src/css/styles.css -w --verbose",
+    "prod": "NODE_ENV=production postcss src/css/tailwind.css -o src/css/styles.css -m"
   }
 ```
